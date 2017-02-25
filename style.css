@@ -1,0 +1,41 @@
+*{
+  margin:0;
+  box-sizing: border-box;
+  /*text-align: center;*/
+}
+
+.header{
+  background-color: lightgrey;
+  height: 5vh;
+}
+
+.mediaBar{
+  float: left;
+  clear: both;
+}
+.hleft{
+  float: left;
+}
+.aboutMe{
+  width: 75%;
+  font-size: 1.5em;
+  float: left;
+}
+.hright{
+  text-align: right;
+  float: right;
+}
+.iconsizer{
+  margin: 0 .5em 0 .5em;
+  width:5%;
+}
+#profpic{
+  float: right;
+  width: 20%;
+  border-radius: 15px 50px;
+}
+
+#mountain{
+  width: 100vw;
+  /*margin-bottom: -6em;*/
+}
