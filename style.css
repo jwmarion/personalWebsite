@@ -29,6 +29,7 @@
   margin: 0 .5em 0 .5em;
   width:5%;
 }
+.mediaBar{}
 #profpic{
   float: right;
   width: 20%;
@@ -38,4 +39,34 @@
 #mountain{
   width: 100vw;
   /*margin-bottom: -6em;*/
+}
+
+.content{
+  float: left;
+}
+
+.portImage{
+  width: 100px;
+
+}
+
+.p1{
+  float: left;
+  width: 33%;
+}
+
+.p2{
+  float: left;
+  width: 33%;
+}
+
+.p3{
+  float: left;
+  width: 33%;
+}
+.portfolio{
+  text-align: center;
+  float: left;
+  padding-top: 5%;
+  background-color: lightgrey;
 }
