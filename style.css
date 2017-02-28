@@ -1,72 +1,89 @@
 *{
-  margin:0;
   box-sizing: border-box;
-  /*text-align: center;*/
+  margin: 0;
+  padding: 0;
 }
 
-.header{
-  background-color: lightgrey;
-  height: 5vh;
+body{
+    background-image: url("./media2/topography.png");
 }
-
-.mediaBar{
+.sidebar{
+  box-sizing: border-box;
   float: left;
+  /*background-color: lightgrey;*/
+  width: 25vw;
+  height: 100vh;
+  /*border: 2px solid red;*/
+  margin-left: 0px;
+  margin-top: 5%;
+}
+
+.sbText h2{
+  font-size: 2.1em;
+}
+
+.sbText h3{
+  text-align: center;
+}
+
+.profile{
+  padding-left: 0;
+  margin-left: 0;
+}
+.profile img{
+
+  float: left;
+  width: 100%;
   clear: both;
 }
-.hleft{
-  float: left;
-}
-.aboutMe{
-  width: 75%;
-  font-size: 1.5em;
-  float: left;
-}
-.hright{
-  text-align: right;
-  float: right;
-}
-.iconsizer{
-  margin: 0 .5em 0 .5em;
-  width:5%;
-}
-.mediaBar{}
-#profpic{
-  float: right;
-  width: 20%;
-  border-radius: 15px 50px;
+
+.iconParent{
+  margin-left: 15%;
+  width: 100%;
+  padding-bottom: 3em;
 }
 
-#mountain{
-  width: 100vw;
-  /*margin-bottom: -6em;*/
+.contactIcons{
+  float: left;
+  width: 10%;
+  margin: 5% 5%;
 }
-
 .content{
+
+  /*background-color: lightblue;*/
+  /*border: 2px solid red;*/
+  height: 100vh;
+}
+.picker{
+  padding-top: 3em;
+}
+.picker h4{
   float: left;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  padding: 0 1em;
+  margin:.5em .25em;
+  clear: both;
+  width: 100%;
+  height: 2em;
+  font-size: 1.5em;
+}
+.bigBox{
+  float: left;
+  /*border: 2px solid orange;*/
+  height: auto;
+  width: 75vw;
 }
 
-.portImage{
-  width: 100px;
-
-}
-
-.p1{
+.projects {
   float: left;
-  width: 33%;
 }
+.projects div{
+  float: left;
+  background-color: grey;
+  height:31vh;
+  width: 25vw;%;
+  margin:50px;
+  border: 2px solid red;
 
-.p2{
-  float: left;
-  width: 33%;
-}
-
-.p3{
-  float: left;
-  width: 33%;
-}
-.portfolio{
-  text-align: center;
-  float: left;
-  padding-top: 5%;
-  background-color: lightgrey;
 }
