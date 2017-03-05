@@ -11,12 +11,10 @@ body{
 .sidebar{
   box-sizing: border-box;
   float: left;
-  /*background-color: lightgrey;*/
   width: 25vw;
-  height: 100vh;
-  /*border: 2px solid red;*/
   margin-left: 0px;
   margin-top: 5%;
+  clear: both;
 }
 
 .sbText h2{
@@ -51,9 +49,9 @@ body{
   margin: 5% 5%;
 }
 .content{
-  /*background-color: lightblue;*/
-  /*border: 2px solid red;*/
+  float: left;
   height: 100vh;
+  width: 200px;
 }
 .picker{
   padding-top: 3em;
@@ -71,20 +69,19 @@ body{
 }
 .bigBox{
   float: left;
-  /*border: 2px solid orange;*/
   height: auto;
-  width: 75vw;
+  width: 100%;
 }
 
 .projects {
   padding-left: 6%;
-  float: left;
+  /*float: left;*/
 }
 .projects div{
   float: left;
   background-color: grey;
   height:31vh;
-  width: 25vw;%;
+  width: 250px;
   margin:50px;
   border: 2px solid red;
 
