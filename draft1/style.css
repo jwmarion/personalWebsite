@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-image: url("./media/topography.png");
+}
+
+.sidebar{
+  box-sizing: border-box;
+  float: left;
+  width: 25vw;
+  margin-left: 0px;
+  margin-top: 5%;
+  clear: both;
+}
+
+.sbText h2{
+  font-size: 2.0em;
+  padding-left: .5em;
+}
+
+.sbText h3{
+  text-align: center;
+}
+
+.profile{
+  padding-left: 0;
+  margin-left: 0;
+}
+.profile img{
+
+  float: left;
+  width: 100%;
+  clear: both;
+}
+
+.iconParent{
+  margin-left: 15%;
+  width: 100%;
+  padding-bottom: 3em;
+}
+
+.contactIcons{
+  float: left;
+  width: 10%;
+  margin: 5% 5%;
+}
+.content{
+  float: left;
+  height: 100vh;
+  width: 200px;
+}
+.picker{
+  padding-top: 3em;
+}
+.picker h4{
+  float: left;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  padding: 0 1em;
+  margin:.5em .25em;
+  clear: both;
+  width: 100%;
+  height: 2em;
+  font-size: 1.5em;
+}
+.bigBox{
+  float: left;
+  height: auto;
+  width: 100%;
+}
+
+.projects {
+  padding-left: 6%;
+  /*float: left;*/
+}
+.projects div{
+  float: left;
+  background-color: grey;
+  height:31vh;
+  width: 250px;
+  margin:50px;
+  border: 2px solid red;
+
+}

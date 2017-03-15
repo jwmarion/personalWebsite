@@ -1,0 +1,118 @@
+*{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+
+}
+.wrapper {
+  transition: background 1s ease;
+}
+
+.body{
+  font-family: 'Diplomata SC', cursive;
+
+}
+.firstPage{
+  height: 100vh;
+
+  text-align: center;
+  padding-bottom: 10vw;
+}
+  .firstPage h1{
+    padding-top: 10vw;
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 3em;
+
+  }
+
+  .firstPage span{
+    border-right: 2px solid black;
+    padding: 0 1vw;
+  }
+
+  #email{
+    border-right: none;
+  }
+
+.secondPage{
+  height: 55vw;
+  /*background-color: #D1DCBC;*/
+}
+
+  .projects{
+    margin-left: 10vw;
+
+  }
+  .projects h1{
+    font-family: 'Fascinate Inline', cursive;
+    text-align: center;
+    margin-right: 10vw;
+  }
+  .project{
+
+    float: left;
+    margin: 2vw 5vw;
+    background-color: #3D6070;
+    width: 15vw;
+    height: 15vw;
+    /*//background-image: url('./media/silentMovie.jpg');*/
+    background-size:contain;
+  }
+
+  #p4{
+    clear: both;
+
+  }
+.thirdPage{
+  margin-top: 20vw;
+  height: 50vw;
+  }
+  .icons{
+    float: left;
+  }
+  .learned{
+    margin-left: 16vw;
+    clear: both;
+    float: left;
+    text-align: center;
+    color: black;
+      font-family: 'Fascinate Inline', cursive;
+  }
+  .learning{
+    float: left;
+    margin-left: 4vw;
+    text-align: center;
+    color: black;
+      font-family: 'Fascinate Inline', cursive;
+  }
+  .tIcon{
+    float: left;
+    margin: 1vw;
+    width: 5vw;
+    height: 5vw;
+    background-color: #90AA9D;
+  }
+  .icons1{
+
+  }
+  .icons2{
+
+  }
+.fourthPage{
+  height: 75vw;
+
+}
+
+.about{
+  margin-left: 15%;
+  float: left;
+  font-family: 'Dosis', cursive;
+  color: #D1DCBC;
+  width: 35%;
+}
+.contact{
+  float: left;
+  margin-left: 15%;
+  width: 35%;
+  font-family: 'Dosis', cursive;
+  color: #D1DCBC;
+}
