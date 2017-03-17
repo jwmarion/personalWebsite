@@ -6,19 +6,24 @@
 #fullpage {
   transition: background 1s ease;
 }
-
+.clearfix{
+  clear: both;
+}
 .body{
   font-family: 'Diplomata SC', cursive;
 
 }
 .topBar{
+  float: left;
   left: 0;
   top: 0;
-  right:0;
   height: 50px;
   position: fixed;
+  z-index: 100;
 }
 .topBar span{
+  /*border-right: 2px solid black;*/
+  border-bottom: 2px solid black;
   font-family: 'Fascinate Inline', cursive;
   font-size: 2em;
   float: left;
@@ -92,7 +97,7 @@
 }
 
   .projects{
-    margin-left: 10vw;
+    /*margin-left: 10vw;*/
 
   }
   .projects h1{
@@ -106,9 +111,10 @@
     float: left;
     /*background-color: #3D6070;*/
 
-    width: 15vw;
-    height: 15vw;
-    margin: 2vw 5vw;
+    /*width: 15vw;*/
+    width: 30vw;
+    /*height: 15vw;*/
+    /*margin: 2vw 5vw;*/
     /*//background-image: url('./media/silentMovie.jpg');*/
 
     background-size:contain;
@@ -133,7 +139,25 @@
   background-color: #3D6070;
   letter-spacing: 1px;
   }
-  .icons{
+  #dbub1{
+    position: fixed;
+    width: 7vw;
+    left: 5vw;
+  }
+  #dbub2{
+    right: 5vw;
+    position: fixed;
+    width: 7vw;
+  }
+  #dbub3{
+    position: fixed;
+    width: 7vw;
+  }
+  #dbub4{
+    position: fixed;
+    width: 7vw;
+  }
+  #icons5{
     float: left;
   }
   .learned{
@@ -162,11 +186,11 @@
   .tIcon{
     float: left;
 
-    width: 5vw;
-    height: 5vw;
+    width: 8vw;
+    height: 8vw;
     margin: 1vw;
 
-    background-color: #90AA9D;
+    /*background-color: #90AA9D;*/
   }
   .icons1{
 
@@ -174,6 +198,7 @@
   .icons2{
 
   }
+
 .fourthPage{
   height: 75vw;
 
