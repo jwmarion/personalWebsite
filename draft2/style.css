@@ -3,7 +3,7 @@
   padding: 0 0 0 0;
 
 }
-.wrapper {
+#fullpage {
   transition: background 1s ease;
 }
 
@@ -13,29 +13,57 @@
 }
 .firstPage{
   height: 100vh;
-
   text-align: center;
-  padding-bottom: 10vw;
+  background-color: #D1DCBC;
 }
   .firstPage h1{
     padding-top: 10vw;
+
+    letter-spacing: 1px;
+
     font-family: 'Fascinate Inline', cursive;
     font-size: 3em;
 
   }
+  .firstPage h2{
+    margin-bottom: 1vw;
 
+    letter-spacing: 1px;
+  }
+  .firstPage h3{
+    margin-bottom: 26vw;
+  }
   .firstPage span{
-    border-right: 2px solid black;
     padding: 0 1vw;
+
+    letter-spacing: 2px;
+
+    border-right: 2px solid black;
+
+    font-size: .75em;
+  }
+  .firstPage a{
+    text-decoration: none;
+
+    color: black
   }
 
   #email{
     border-right: none;
   }
 
+  .waves{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+  }
+
 .secondPage{
-  height: 55vw;
-  /*background-color: #D1DCBC;*/
+    height: 100vh;
+
+  background-color: #90AA9D;
 }
 
   .projects{
@@ -43,18 +71,21 @@
 
   }
   .projects h1{
-    font-family: 'Fascinate Inline', cursive;
-    text-align: center;
     margin-right: 10vw;
+
+    text-align: center;
+
+    font-family: 'Fascinate Inline', cursive;
   }
   .project{
-
     float: left;
-    margin: 2vw 5vw;
-    background-color: #3D6070;
+    /*background-color: #3D6070;*/
+
     width: 15vw;
     height: 15vw;
+    margin: 2vw 5vw;
     /*//background-image: url('./media/silentMovie.jpg');*/
+
     background-size:contain;
   }
 
@@ -62,33 +93,54 @@
     clear: both;
 
   }
+  #transition1{
+    margin-top: 11vh;
+    margin-bottom: none;
+    padding-bottom: none;
+    /*height: 300px;*/
+
+  }
 .thirdPage{
-  margin-top: 20vw;
+  /*margin-top: 20vw;*/
   height: 50vw;
+
+  background: linear-gradient(#90AA9D,#3D6070);
+  background-color: #3D6070;
+  letter-spacing: 1px;
   }
   .icons{
     float: left;
   }
   .learned{
-    margin-left: 16vw;
-    clear: both;
     float: left;
+    clear: both;
+
+    margin-left: 16vw;
+
     text-align: center;
+
     color: black;
+
       font-family: 'Fascinate Inline', cursive;
   }
   .learning{
     float: left;
+
     margin-left: 4vw;
+
     text-align: center;
+
     color: black;
+
       font-family: 'Fascinate Inline', cursive;
   }
   .tIcon{
     float: left;
-    margin: 1vw;
+
     width: 5vw;
     height: 5vw;
+    margin: 1vw;
+
     background-color: #90AA9D;
   }
   .icons1{
@@ -100,19 +152,37 @@
 .fourthPage{
   height: 75vw;
 
+    background: linear-gradient(#3D6070,#183442);
+  /*background-color: #183442;*/
+
 }
 
 .about{
-  margin-left: 15%;
   float: left;
-  font-family: 'Dosis', cursive;
-  color: #D1DCBC;
+
   width: 35%;
+  margin-left: 15%;
+
+  color: #D1DCBC;
+
+  font-family: 'Dosis', cursive;
 }
 .contact{
   float: left;
-  margin-left: 15%;
+
   width: 35%;
-  font-family: 'Dosis', cursive;
+  margin-left: 15%;
+
   color: #D1DCBC;
+
+  font-family: 'Dosis', cursive;
+}
+.contactIcon{
+  float:left;
+
+  width: 60px;
+  margin-right: 1vw;
+}
+#emailIcon{
+
 }

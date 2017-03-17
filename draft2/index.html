@@ -5,37 +5,41 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600" rel="stylesheet">
     <title>James Marion</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./jquery.fullPage.css"/>
     <link href="https://fonts.googleapis.com/css?family=Diplomata+SC|Ewert|Fascinate+Inline|Dosis" rel="stylesheet">
     <script src="./jquery.js" charset="utf-8"></script>
+    <script src="./jquery.fullpage.js" charset="utf-8"></script>
     <script src="./in-view.min.js" charset="utf-8"></script>
+
     <script src="./main.js"></script>
 
   </head>
   <body>
-    <div class="wrapper">
+    <div id="fullpage">
       <div class="section firstPage" data-background-color="#D1DCBC">
         <h1>James Walter Marion</h1>
         <h2>Full-Stack Developer</h2>
         <h3>
-          <span id="gitHub" >GitHub</span>
+          <span id="gitHub"><a href="https://github.com/jwmarion" target="_blank">GitHub</a></span>
           <span id="resume">Resume</span>
-          <span id="LinkedIn">LinkedIn</span>
-          <span id="email">Email</span>
+          <span id="LinkedIn"><a href="https://www.linkedin.com/in/james-marion-88a72855/" target="_blank">LinkedIn</a></span>
+          <span id="email"><a href="mailto:jwmarion@gmail.com" >Email</a></span>
         </h3>
-    <!-- <div class="section" data-background-color="#D1DCBC"></div> -->
+          <img class="waves" src="./media/fullwaves.png" alt="">
       </div>
-      <div class="section secondPage" data-background-color="#90AA9D">
+      <div class=" secondPage section" data-background-color="#90AA9D">
         <div class="projects">
           <h1>Portfolio</h1>
-          <div id="p1" class="project"></div>
-          <div id="p2" class="project"></div>
-          <div id="p3" class="project"></div>
-          <div id="p4" class="project"></div>
-          <div id="p5" class="project"></div>
-          <div id="p6" class="project"></div>
+          <img id="p1" src="./media/turtle1.png" class="project">
+          <img id="p2" src="./media/fish1.png" class="project">
+          <img id="p3" src="./media/octopus1.png" class="project">
+          <img id="p4" src="./media/fish1.png" class="project">
+          <img id="p5" src="./media/turtle1.png" class="project">
+          <img id="p6" src="./media/octopus1.png" class="project">
         </div>
+        <!-- <img id="transition1" src="./media/transition1.png" alt=""> -->
       </div>
-        <div class="section" data-background-color="#90AA9D"></div>
+
       <div class="section thirdPage" data-background-color="#3D6070">
         <div class="learned">
           <h2>Technologies I know</h2>
@@ -54,15 +58,22 @@
           <div class="tIcon"></div>
         </div>
       </div>
-      <div class="section thirdPage" data-background-color="#183442">
+
+      <div class="section fourthPage" data-background-color="#183442">
         <div class="aboutMe">
           <div class="about">
             <h1>About Me:</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus enim eu ornare porttitor. Cras pellentesque purus at lectus varius tincidunt vel eu turpis. Duis tristique pharetra augue non aliquet. In accumsan nec risus id pharetra. Donec in erat dui. Donec et arcu leo. Aliquam ac aliquam tellus. Donec sed felis aliquam lacus aliquam tristique. Suspendisse vestibulum vulputate arcu, in tempor ex faucibus non. In hac habitasse platea dictumst. Nam sed velit rhoncus lorem porttitor scelerisque sed vitae mi. Praesent aliquet condimentum dolor mattis cursus.</p>
           </div>
           <div class="contact">
-            <h1>Contact Me</h1>
+            <h1>Contact Me:</h1>
             <h2>James Walter Marion III</h2>
+            <div class="contactIcons">
+              <a href="mailto:jwmarion@gmail.com" ><img id="emailIcon" class="contactIcon" src="./media/emailIcon.png" alt="Email"></a>
+              <a href="https://www.linkedin.com/in/james-marion-88a72855/" target="_blank"><img class="contactIcon" src="./media/linkedinIcon.png" alt="Linked in"></a>
+              <a href="https://github.com/jwmarion" target="_blank"><img class="contactIcon" src="./media/githubIcon.png" alt="Github"></a>
+              <img class="contactIcon" src="./media/bloggerIcon.png" alt="Blog">
+            </div>
           </div>
         </div>
       </div>
