@@ -1,88 +1,217 @@
 *{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+
+}
+#fullpage {
+  transition: background 1s ease;
 }
 
-body{
-    background-image: url("./media/topography.png");
-}
+.body{
+  font-family: 'Diplomata SC', cursive;
 
-.sidebar{
-  box-sizing: border-box;
+}
+.topBar{
+  left: 0;
+  top: 0;
+  right:0;
+  height: 50px;
+  position: fixed;
+}
+.topBar span{
+  font-family: 'Fascinate Inline', cursive;
+  font-size: 2em;
   float: left;
-  width: 25vw;
-  margin-left: 0px;
-  margin-top: 5%;
-  clear: both;
 }
-
-.sbText h2{
-  font-size: 2.0em;
-  padding-left: .5em;
+.topBar ul{
+  margin-left: 3vh;
 }
-
-.sbText h3{
-  text-align: center;
-}
-
-.profile{
-  padding-left: 0;
-  margin-left: 0;
-}
-.profile img{
-
+.topBar li{
+  margin-top: .5em;
+  margin-left: 1em;
   float: left;
-  width: 100%;
-  clear: both;
+  width: 3vw;
+  list-style-type: none;
 }
-
-.iconParent{
-  margin-left: 15%;
-  width: 100%;
-  padding-bottom: 3em;
-}
-
-.contactIcons{
+.tbIcon{
   float: left;
-  width: 10%;
-  margin: 5% 5%;
+  width: 2em;
 }
-.content{
-  float: left;
+.firstPage{
   height: 100vh;
-  width: 200px;
+  text-align: center;
+  background-color: #D1DCBC;
 }
-.picker{
-  padding-top: 3em;
-}
-.picker h4{
-  float: left;
-  border-bottom: 2px solid black;
-  border-left: 2px solid black;
-  padding: 0 1em;
-  margin:.5em .25em;
-  clear: both;
-  width: 100%;
-  height: 2em;
-  font-size: 1.5em;
-}
-.bigBox{
-  float: left;
-  height: auto;
-  width: 100%;
+  .firstPage h1{
+    padding-top: 10vw;
+
+    letter-spacing: 1px;
+
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 3em;
+
+  }
+  .firstPage h2{
+    margin-bottom: 1vw;
+
+    letter-spacing: 1px;
+  }
+  .firstPage h3{
+    margin-bottom: 26vw;
+  }
+  .firstPage span{
+    padding: 0 1vw;
+
+    letter-spacing: 2px;
+
+    border-right: 2px solid black;
+
+    font-size: .75em;
+  }
+  .firstPage a{
+    text-decoration: none;
+
+    color: black
+  }
+
+  #email{
+    border-right: none;
+  }
+
+  .waves{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+.secondPage{
+    height: 100vh;
+
+  background-color: #90AA9D;
 }
 
-.projects {
-  padding-left: 6%;
-  /*float: left;*/
-}
-.projects div{
-  float: left;
-  background-color: grey;
-  height:31vh;
-  width: 250px;
-  margin:50px;
-  border: 2px solid red;
+  .projects{
+    margin-left: 10vw;
 
+  }
+  .projects h1{
+    margin-right: 10vw;
+
+    text-align: center;
+
+    font-family: 'Fascinate Inline', cursive;
+  }
+  .project{
+    float: left;
+    /*background-color: #3D6070;*/
+
+    width: 15vw;
+    height: 15vw;
+    margin: 2vw 5vw;
+    /*//background-image: url('./media/silentMovie.jpg');*/
+
+    background-size:contain;
+  }
+
+  #p4{
+    clear: both;
+
+  }
+  #transition1{
+    margin-top: 11vh;
+    margin-bottom: none;
+    padding-bottom: none;
+    /*height: 300px;*/
+
+  }
+.thirdPage{
+  /*margin-top: 20vw;*/
+  height: 50vw;
+
+  background: linear-gradient(#90AA9D,#3D6070);
+  background-color: #3D6070;
+  letter-spacing: 1px;
+  }
+  .icons{
+    float: left;
+  }
+  .learned{
+    float: left;
+    clear: both;
+
+    margin-left: 16vw;
+
+    text-align: center;
+
+    color: black;
+
+      font-family: 'Fascinate Inline', cursive;
+  }
+  .learning{
+    float: left;
+
+    margin-left: 4vw;
+
+    text-align: center;
+
+    color: black;
+
+      font-family: 'Fascinate Inline', cursive;
+  }
+  .tIcon{
+    float: left;
+
+    width: 5vw;
+    height: 5vw;
+    margin: 1vw;
+
+    background-color: #90AA9D;
+  }
+  .icons1{
+
+  }
+  .icons2{
+
+  }
+.fourthPage{
+  height: 75vw;
+
+  background: linear-gradient(#3D6070,#183442);
+  /*background-color: #183442;*/
+
+}
+
+.about{
+  float: left;
+
+  width: 35%;
+  margin-left: 15%;
+
+  color: #D1DCBC;
+
+  font-family: 'Dosis', cursive;
+}
+.contact{
+  float: left;
+
+  width: 35%;
+  margin-left: 15%;
+
+  color: #D1DCBC;
+
+  font-family: 'Dosis', cursive;
+}
+.contactIcon{
+  float:left;
+
+  width: 60px;
+  margin-right: 1vw;
+}
+
+#sand{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
