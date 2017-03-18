@@ -104,6 +104,46 @@
   background-color: #90AA9D;
 }
 
+.projectPage h1{
+  text-align: center;
+  font-family: 'Fascinate Inline', cursive;
+  margin-bottom: 2vw;
+
+}
+
+.pDescription{
+  position: absolute;
+  top: 15vw;
+  margin-left: 3vw;
+  width: 30vw;
+
+}
+
+.pLeftBlock{
+  /*border: 2px solid red;*/
+  float: left;
+  width: 40vw;
+  margin-left: 10vw;
+  height: 32vw;
+}
+.pLeftBlock img{
+  width: 40vw;
+  height: 32vw;
+}
+.pRightBlock{
+  /*border: 2px solid red;*/
+  float: left;
+  width: 20%;
+  height: 32vw;
+}
+.pDescription{
+  float: left;
+
+}
+.pVideo{
+  clear: both;
+  float: left;
+}
   .projects{
     /*margin-left: 10vw;*/
 
