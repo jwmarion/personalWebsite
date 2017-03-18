@@ -83,11 +83,11 @@
     border-right: none;
   }
 
-  #p1{
+  #p2{
     margin-left: 3vw;
     margin-top: 6vw;
   }
-#p2{
+#p1{
   margin-left: 3vw;
 }
 
@@ -135,6 +135,9 @@
   float: left;
   width: 20%;
   height: 32vw;
+}
+.pRightBlock img{
+  width: 40vw;
 }
 .pDescription{
   float: left;
@@ -240,12 +243,7 @@
 
     /*background-color: #90AA9D;*/
   }
-  .icons1{
 
-  }
-  .icons2{
-
-  }
 
 .fourthPage{
   height: 75vw;
@@ -287,4 +285,94 @@
   bottom: 0;
   left: 0;
   width: 100%;
+}
+
+
+@media only screen and (max-width: 768px){
+  .pRightBlock{
+    clear: left;
+  }
+  .learning{
+
+    margin: auto;
+    margin-top: 50vw;
+    width: 100%;
+    float: none;
+  }
+  .learned{
+    display: block;
+    margin: auto;
+    width: 100%;
+    float: none;
+  }
+  .bubbles{
+    width: 80%;
+    /*margin-left: 15vw;*/
+    display: block;
+    margin: auto;
+
+  }
+  .project{
+    clear: left;
+    width: 50vw;
+
+  }
+  .projects h1{
+    text-align: center;
+  }
+  #p1{
+    margin-left: 18vw;
+  }
+  #p2{
+    margin-left: 30vw;
+  }
+  #p3{
+    margin-left: 30vw;
+  }
+  .tIcon{
+    width: 15vw;
+    height: 15vw;
+    clear: none;
+  }
+  .aboutMe{
+    width: 100%;
+    font-size: 1em;
+  }
+  .about{
+    width:auto;
+  }
+  .contact{
+    margin-top: 10vw;
+    clear: left;
+    width: 100%;
+  }
+  .contactIcon{
+    width: 40px;;
+  }
+  .projectPage{
+    margin-top: 5vw;
+  }
+  .pLeftBlock{
+    display: block;
+    margin: auto;
+    width: 80vw;
+    height: 45vw;
+
+  }
+  .pLeftBlock img{
+
+    margin-left: 10vw;
+    width: 80vw;
+    height: 45vw;
+
+  }
+  .pRightBlock{
+    clear: left;
+    width: 100%
+  }
+  .pRightBlock img{
+    width: 100vw;
+    height: 55vw;
+
+  }
 }
