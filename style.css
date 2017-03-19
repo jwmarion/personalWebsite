@@ -289,6 +289,10 @@
 
 
 @media only screen and (max-width: 768px){
+  .waves{
+    width: 250vw;
+  }
+
   .pRightBlock{
     clear: left;
   }
@@ -314,20 +318,21 @@
   }
   .project{
     clear: left;
-    width: 50vw;
+    width: 57vw;
+    /*border: 2px solid red;*/
 
   }
   .projects h1{
     text-align: center;
   }
   #p1{
-    margin-left: 18vw;
+    margin-left: 16vw;
   }
   #p2{
-    margin-left: 30vw;
+    margin-left: 25vw;
   }
   #p3{
-    margin-left: 30vw;
+    margin-left: 27vw;
   }
   .tIcon{
     width: 15vw;
@@ -376,6 +381,7 @@
 
   }
   #sand{
-    height: 30vw;
+    /*height: 30vw;*/
+    width: 250vw;
   }
 }
