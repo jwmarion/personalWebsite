@@ -316,9 +316,13 @@
     margin: auto;
 
   }
+  .slide{
+
+  }
+
   .project{
     clear: left;
-    width: 57vw;
+    width: 50vw;
     /*border: 2px solid red;*/
 
   }
@@ -355,7 +359,11 @@
     width: 40px;;
   }
   .projectPage{
-    margin-top: 5vw;
+    /*border: 2px solid red;*/
+
+  }
+  .projectPage h1{
+
   }
   .pLeftBlock{
     display: block;
@@ -373,7 +381,8 @@
   }
   .pRightBlock{
     clear: left;
-    width: 100%
+    width: 100%;
+    margin-bottom: 25vw;
   }
   .pRightBlock img{
     width: 100vw;
