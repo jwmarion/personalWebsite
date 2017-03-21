@@ -3,9 +3,17 @@
   padding: 0 0 0 0;
 
 }
-#fullpage {
-  transition: background 1s ease;
+
+
+.bubbleWave{
+  width: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
+/*#fullpage {
+  transition: background 1s ease;
+}*/
 .clearfix{
   clear: both;
 }
@@ -122,14 +130,23 @@
 .pLeftBlock{
   /*border: 2px solid red;*/
   float: left;
-  width: 40vw;
-  margin-left: 10vw;
+  width: 30vw;
+  /*margin-right:10vw;*/
+  margin-left: 20vw;
   height: 32vw;
 }
+
 .pLeftBlock img{
-  width: 40vw;
+  width: 30vw;
   height: 32vw;
+  position: fixed;
+  /*left: 120vw;*/
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
+
 .pRightBlock{
   /*border: 2px solid red;*/
   float: left;
@@ -142,6 +159,18 @@
 .pDescription{
   float: left;
 
+}
+.pg1pic{
+  left:120;
+}
+.pg2pic{
+  left:220;
+}
+.pg3pic{
+  left: 320;
+}
+.pLeftBlock img.top:hover {
+  opacity:0;
 }
 .pVideo{
   clear: both;

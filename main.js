@@ -1,18 +1,26 @@
 $(document).ready(function () {
+
+
+
+
+
 $('#fullpage').fullpage({
-  // easingcss3: 'ease',
 
+  onLeave: function(index, nextIndex, direction) {
+    if(index == 2 && direction =='up'){
+      console.log('test');
+
+		}
+    else {
+      TweenLite.to($('.bubbleWave'), 1, {
+        top: -50,
+        right:0
+      });
+
+    }
+
+
+  }
 });
 
-// var $target = $('#fullpage');
-//
-// inView('.section').on('enter', function(el){
-//   var color = $(el).attr('data-background-color');
-//   $target.css('background-color', color );
-// });
 });
-
-
-
-// window.onload = $(".firstPage").css('background-color', '#D1DCBC' );
-// // });
