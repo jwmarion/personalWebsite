@@ -49,63 +49,64 @@
   width: 100%;
 }
 
+
 .secondPage{
   height: 100vh;
-
   background-color: #90AA9D;
 }
 
-.projectPage h1{
+.projectPage {
   margin-bottom: 2vw;
   text-align: center;
   font-family: 'Fascinate Inline', cursive;
 }
 
 .pLeftBlock{
+  position: relative;
   float: left;
   width: 30vw;
   height: 32vw;
   margin-left: 17vw;
 }
-
-.pLeftBlock img{
-  width: 30vw;
+/*
+.pLeftBlock img:first-child{
   height: 32vw;
-
+}*/
+.pLeftBlock img{
+  height: 32vw;
+  top: 3vw;
+  left: 3vw;
 }
 
 .pRightBlock{
   float: left;
   width: 40vw;
   height: 32vw;
-  margin-left: 3vw; 
+  margin-left: 3vw;
+  margin-top: 2vw;
 }
 
-.pRightBlock img {
-  float: left;
-}
-
-.pRightBlock img:nth-of-type(1){
+.descSign{
   width: 40vw;
+  height: 15vw;
 }
 
-.pRightBlock img:nth-of-type(2){
+.demoSign{
   width: 28vw;
   margin-top: 5px;
 }
 
-.pRightBlock img:nth-of-type(3){
-  width: 9vw;
+.gSign{
+  width: 10vw;
   margin-top: 5px;
   float: right;
 }
 
-.pRightBlock img:nth-of-type(4){
+.bSign{
   width: 28vw;
   height: 7vw;
   margin-top: 5px;
 }
-
 
 .projects{
   text-align: center;
@@ -121,7 +122,7 @@
   width: 25vw;
 }
 .projects img:nth-of-type(2){
-  width: 25vw;
+  width: 30vw;
   margin-top: 6vw;
   margin-left: 6vw;
 }
