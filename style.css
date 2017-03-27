@@ -206,7 +206,6 @@
 }
 .learning{
   float: none;
-
   width: 100%;
   margin: auto;
   margin-top: 50vw;
@@ -214,7 +213,6 @@
 .learned{
   display: block;
   float: none;
-
   width: 100%;
   margin: auto;
 }
@@ -227,28 +225,29 @@
 
 .project{
   clear: left;
-  width: 50vw;
-}
-/*.projects{
-  text-align: center;
-}*/
-
-.projects img:nth-of-type(1){
-    margin-left: 16vw;
+  /*width: 50vw;*/
 }
 
 .projects img:nth-of-type(1){
-    margin-left: 25vw;
+    margin-left: 32vw;
+    width: 40vw;
 }
 
-.projects img:nth-of-type(1){
-  margin-left: 27vw;
+.projects img:nth-of-type(2){
+    margin-left: 28vw;
+    width: 45vw;
+}
+
+.projects img:nth-of-type(3){
+  margin-left: 30vw;
+  width: 45vw;
 }
 
 .bubbles img{
   clear: none;
   width: 15vw;
   height: 15vw;
+  margin-left: 7vw;
 }
 .aboutMe{
   width: 100%;
@@ -256,6 +255,7 @@
 }
 .about{
   width:auto;
+
 }
 .contact{
   clear: left;
@@ -272,19 +272,37 @@
   margin: auto;
 }
 .pLeftBlock img{
-  width: 80vw;
+  width: 85vw;
   height: 45vw;
   margin-left: 10vw;
+  margin-bottom: 10vw;
 }
 .pRightBlock{
   clear: left;
   width: 100%;
-  margin-bottom: 25vw;
+
 }
-.pRightBlock img{
-  width: 100vw;
-  height: 55vw;
+.descSign{
+  width: 80vw;
+  height: 30vw;
+  margin-left: -2vw;
 }
+.demoSign{
+  width: 60vw;
+  float: left;
+  margin-left: 10vw;
+}
+
+.gSign{
+  float: left;
+  margin-left: 3vw;
+}
+.bSign{
+  clear: both;
+  width: 40vw;
+  height: 10vw;
+}
+
 #sand{
   width: 250vw;
 }
