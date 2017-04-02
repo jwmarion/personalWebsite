@@ -150,6 +150,8 @@ h2{
 .demoSign{
   width: 28vw;
   margin-top: 5px;
+}
+.demoSign:hover{
   animation: scaleUp .2s;
   animation-fill-mode: forwards;
 }
@@ -158,6 +160,10 @@ h2{
   width: 10vw;
   margin-top: 5px;
   float: right;
+  cursor:pointer;
+
+}
+.gSign:hover{
   animation: scaleUp .2s;
   animation-fill-mode: forwards;
 }
@@ -166,11 +172,12 @@ h2{
   width: 28vw;
   height: 7vw;
   margin-top: 5px;
-  animation: scaleUp .2s;
-  animation-fill-mode: forwards;
   cursor:pointer;
 }
-
+.bSign:hover{
+  animation: scaleUp .2s;
+  animation-fill-mode: forwards;
+}
 .projects{
   text-align: center;
   font-family: 'Fascinate Inline',cursive;
