@@ -308,8 +308,8 @@ h2{
 .waves{
   width: 250vw;
 }
-.thirdPage h1{
-  margin-top:none;
+.slide{
+  margin-top:-15vw;
 }
 
 .pRightBlock{
