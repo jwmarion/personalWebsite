@@ -7,6 +7,43 @@
   }
 }
 
+@keyframes wobble {
+  0%{
+    transform: translate(0, 0);
+  }
+  25%{
+    transform: translate(10px, 5px);
+  }
+  50%{
+    transform: translate(0px,10px);
+  }
+  75%{
+    transform: translate(10px,5px);
+  }
+  100%{
+    transform: translate(0,10px);
+  }
+
+}
+
+@keyframes wobble2 {
+  0%{
+    transform: translate(0px, 10px);
+  }
+  25%{
+    transform: translate(10px, 5px);
+  }
+  50%{
+    transform: translate(0px,0px);
+  }
+  75%{
+    transform: translate(10px,5px);
+  }
+  100%{
+    transform: translate(0,10px);
+  }
+
+}
 * {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
@@ -25,10 +62,18 @@
   text-align: center;
   background-color: #D1DCBC;
 }
+h1{
+  font-size: 3em;
+  letter-spacing: 1px;
+    font-family: 'Fascinate Inline', cursive;
+}
+h2{
+  font-size: 2em;
+  letter-spacing: 1px;
+    font-family: 'Fascinate Inline', cursive;
+}
 .firstPage h1{
   padding-top: 10vw;
-  letter-spacing: 1px;
-  font-family: 'Fascinate Inline', cursive;
   font-size: 4em;
 }
 .firstPage h2{
@@ -121,30 +166,40 @@
 
 .projects{
   text-align: center;
-  font-family: 'Fascinate Inline', cursive;
+  font-family: 'Fascinate Inline',cursive;
 }
 
 .projects img{
   float: left;
   margin:0;
+  animation: wobble 10s infinite;
+  animation-direction: alternate;
 }
 .projects img:nth-of-type(1){
   margin-left: 5vw;
   width: 25vw;
+  animation-delay: 0s;
+  animation-direction: alternate;
+
 }
 .projects img:nth-of-type(2){
   width: 30vw;
   margin-top: 6vw;
   margin-left: 6vw;
+  animation: wobble2 10s infinite;
+  animation-delay: 0s;
+  animation-direction: alternate;
 }
 .projects img:nth-of-type(3){
   width: 23vw;
   margin-top: 10vw;
   margin-left: 10vw;
+  animation-delay: .5s;
 }
 .projects img:hover{
   animation: scaleUp .2s;
   animation-fill-mode: forwards;
+
 }
 
 .thirdPage{
@@ -152,6 +207,7 @@
   letter-spacing: 1px;
   background: linear-gradient(#90AA9D,#3D6070);
   background-color: #3D6070;
+    text-align: center;
   }
 
 
@@ -202,6 +258,9 @@
   float:left;
   width: 60px;
   margin-right: 1vw;
+}
+.contact h3{
+  font-size: 2em;
 }
 
 #sand{
