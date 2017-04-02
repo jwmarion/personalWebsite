@@ -306,7 +306,11 @@ h1{
 
 }
 h2{
-  font-size: .5em;
+  font-size: 1.5em;
+
+}
+.contact h3{
+  font-size: 1.5em;
 
 }
 #resume{
@@ -426,7 +430,12 @@ h2{
   width: 40vw;
   height: 10vw;
 }
-
+.about{
+  margin-left: 7%
+}
+.contact{
+  margin-left: 7%
+}
 #sand{
   width: 250vw;
 }
