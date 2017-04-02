@@ -210,19 +210,21 @@ h2{
   background-color: #3D6070;
     text-align: center;
   }
-
+.thirdPage h1{
+  margin-bottom: 12vw;
+}
 
 .learned{
   float: left;
   clear: both;
-  margin-left: 16vw;
+  margin-left: 17vw;
   text-align: center;
   color: black;
   font-family: 'Fascinate Inline', cursive;
 }
 .learning{
   float: left;
-  margin-left: 4vw;
+  margin-left: 14vw;
   text-align: center;
   color: black;
   font-family: 'Fascinate Inline', cursive;
@@ -231,12 +233,19 @@ h2{
 .bubbles img{
   float: left;
   width: 8vw;
-  margin: 1vw;
+  margin: 0vw;
 }
-.bubbles img:nth-of-type(4){
+.bubbles img:nth-of-type(3n +4){
   clear: both;
 }
+/*.bubbles img:nth-of-type(6){
+  clear: both;
+}*/
+.bubbles img:hover{
+  animation: scaleUp .2s;
+  animation-fill-mode: forwards;
 
+}
 .fourthPage{
   background: linear-gradient(#3D6070,#183442);
 }
@@ -271,7 +280,7 @@ h2{
   width: 100%;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
 .waves{
   width: 250vw;
 }
