@@ -150,18 +150,25 @@ h2{
 .demoSign{
   width: 28vw;
   margin-top: 5px;
+  animation: scaleUp .2s;
+  animation-fill-mode: forwards;
 }
 
 .gSign{
   width: 10vw;
   margin-top: 5px;
   float: right;
+  animation: scaleUp .2s;
+  animation-fill-mode: forwards;
 }
 
 .bSign{
   width: 28vw;
   height: 7vw;
   margin-top: 5px;
+  animation: scaleUp .2s;
+  animation-fill-mode: forwards;
+  cursor:pointer;
 }
 
 .projects{
@@ -281,6 +288,14 @@ h2{
 }
 
 @media only screen and (max-width: 767px){
+h1{
+  font-size: 2em;
+
+}
+h2{
+  font-size: 1em;
+
+}
 .waves{
   width: 250vw;
 }
