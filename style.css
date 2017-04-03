@@ -283,6 +283,10 @@ h2{
   width: 60px;
   margin-right: 1vw;
 }
+.contactIcons img:hover{
+  animation: scaleUp .2s;
+  animation-fill-mode: forwards;
+}
 .contact h3{
   font-size: 2em;
 }
